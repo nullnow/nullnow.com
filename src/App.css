@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&display=swap");
+
+p {
+  font-weight: 300;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #639;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  /* sticky top */
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* flexbox */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-header {
+  color: #639;
+  margin-right: 5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  margin-top: 5rem;
+  padding: 1rem;
 }

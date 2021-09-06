@@ -14,18 +14,24 @@ h1 {
   font-weight: 700;
 }
 
-/* .navbar {
+.navbar {
+  /* sticky top */
   overflow: hidden;
   background-color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
+  /* flexbox */
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-header {
-  color: #232425;
-} */
+  color: #639;
+  margin-right: 5rem;
+}
 
 .content {
+  margin-top: 5rem;
   padding: 1rem;
 }

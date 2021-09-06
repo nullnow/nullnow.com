@@ -5,6 +5,7 @@ import Description from "./main/sections/Description";
 import OurVision from "./main/sections/Vision";
 import TheMission from "./main/sections/Mission";
 import Contact from "./main/sections/Contact";
+import Copyright from "./main/sections/Copyright";
 
 function App() {
   return (
@@ -15,7 +16,10 @@ function App() {
         <OurVision />
         <TheMission />
         <hr />
-        <Contact />
+        <div className="footer">
+          <Contact />
+          <Copyright />
+        </div>
       </div>
     </div>
   );

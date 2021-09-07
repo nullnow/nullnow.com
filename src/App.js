@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="content">
+        <h3 style={{ color: '#639' }}>Building digital tools for creative projects.</h3>
         <Description />
         <OurVision />
         <TheMission />

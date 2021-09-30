@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <div className="content">
         <h3 style={{ color: '#639', margin: '50px 0px 20px 0' }}>
-          Business technology partner for SMEs in Africa.
+          Building a digital feed for marketing content.
         </h3>
         <Description />
         <OurVision />

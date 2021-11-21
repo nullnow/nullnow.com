@@ -6,6 +6,8 @@ import OurVision from './main/sections/Vision';
 import TheMission from './main/sections/Mission';
 import Contact from './main/sections/Contact';
 import Copyright from './main/sections/Copyright';
+import Shop from './main/sections/Shop';
+import Blog from './main/sections/Blog';
 
 function App() {
   return (
@@ -20,7 +22,11 @@ function App() {
         <TheMission />
         <hr />
         <div className="footer">
-          <Contact />
+          <div className="activity">
+            <Contact />
+            <Shop />
+            <Blog />
+          </div>
           <Copyright />
         </div>
       </div>

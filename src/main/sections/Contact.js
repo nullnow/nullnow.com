@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <div className="special-button">
       <a href="mailto:ninte.dev@gmail.com?subject=Nullnow Computing">
-        <h1>
-          Contact <i className="bi bi-envelope-open-fill contact-icon"></i>
-        </h1>
+        <h3>
+          Contact{' '}
+          <i className="bi bi-envelope-open-fill special-button-icon"></i>
+        </h3>
       </a>
     </div>
   );

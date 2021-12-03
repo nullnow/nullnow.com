@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import logo from "./nullnow-computing-logo.png";
+import logo from '../nullnow-computing-logo.png';
 
 export default function Navbar() {
   return (

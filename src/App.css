@@ -52,7 +52,9 @@ a:hover {
 
 .information {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 0 1rem;
 }
 
 .info-base {
@@ -62,13 +64,17 @@ a:hover {
 
 .info-box {
   background-color: #f0f0f0;
-  padding: 1rem;
+  padding: 2rem;
   color: #639;
   width: 10rem;
+  font-size: 1.5rem;
   text-align: center;
   border: 0.1rem solid #639;
   border-radius: 1rem;
   margin: 1rem 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 
 .info-text {
@@ -99,6 +105,10 @@ a:hover {
 .special-button-icon {
   color: #f0f0f0;
   margin-left: 1rem;
+}
+
+.special-button-icon-alt {
+  color: #639;
 }
 
 .copyright {

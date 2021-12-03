@@ -52,9 +52,9 @@ a:hover {
 
 .information {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: space-between;
-  margin: 0 1rem;
+  margin: 3rem 1rem;
 }
 
 .info-base {
@@ -69,9 +69,9 @@ a:hover {
   width: 10rem;
   font-size: 1.5rem;
   text-align: center;
-  border: 0.1rem solid #639;
-  border-radius: 1rem;
-  margin: 1rem 0;
+  border: 0.2rem solid #639;
+  border-radius: 2rem;
+  margin: 1rem;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -79,6 +79,7 @@ a:hover {
 
 .info-text {
   color: #f0f0f0;
+  font-size: 1.2rem;
 }
 
 /* footer */

@@ -10,8 +10,8 @@ p {
 
 h2 {
   font-weight: 500;
-  text-decoration: underline;
-  text-decoration-color: #639;
+  /* text-decoration: underline;
+  text-decoration-color: #639; */
   margin-top: 3rem;
 }
 
@@ -43,22 +43,44 @@ a:hover {
   margin-right: 5rem;
 }
 
+/* content */
+
 .content {
   margin-top: 5rem;
   padding: 1rem;
 }
 
+.information {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.info-base {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 .info-box {
   background-color: #f0f0f0;
   padding: 1rem;
-  width: 86%;
+  color: #639;
+  width: 10rem;
+  text-align: center;
   border: 0.1rem solid #639;
   border-radius: 1rem;
   margin: 1rem 0;
 }
 
 .info-text {
-  color: #232425;
+  color: #f0f0f0;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .special-button {
@@ -80,17 +102,11 @@ a:hover {
 }
 
 .copyright {
-  margin: 6rem 0;
+  margin: 6rem 1rem;
   font-size: 1.8rem;
 }
 
 .activity {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-.footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;

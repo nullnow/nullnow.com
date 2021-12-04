@@ -41,6 +41,8 @@ a:hover {
 .nav-header {
   color: #639;
   margin-right: 5rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* content */
@@ -51,42 +53,32 @@ a:hover {
 }
 
 .information {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
   margin: 3rem 1rem;
 }
 
 .info-base {
-  display: flex;
-  flex-flow: row wrap;
+  margin: 2rem 1rem;
 }
 
 .info-box {
-  background-color: #f0f0f0;
-  padding: 2rem;
   color: #639;
   width: 10rem;
   font-size: 1.5rem;
   text-align: center;
-  border: 0.2rem solid #639;
-  border-radius: 2rem;
   margin: 1rem;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
 }
 
 .info-text {
   color: #f0f0f0;
-  font-size: 1.2rem;
+  font-size: 2rem;
+  margin-top: 1.5rem;
 }
 
 /* footer */
 
 .footer {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: space-between;
 }
 
@@ -94,7 +86,7 @@ a:hover {
   font-size: 1.5rem;
   margin: 4rem 1rem;
   background-color: #639;
-  width: 10rem;
+  width: 15rem;
   padding: 1rem;
   border: 0.2rem solid #f0f0f0;
   border-radius: 2rem;
@@ -113,12 +105,44 @@ a:hover {
 }
 
 .copyright {
-  margin: 7rem 1rem 5rem 0;
+  margin: 3rem 0;
   font-size: 1.8rem;
+  text-align: center;
 }
 
 .activity {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav-header {
+    margin-right: 5rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .info-base {
+    margin: 0.5rem;
+  }
+
+  .info-box {
+    text-align: left;
+  }
+
+  .info-text {
+    color: #f0f0f0;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .special-button {
+    margin: 1rem;
+  }
 }

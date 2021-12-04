@@ -1,31 +1,16 @@
 import './App.css';
 
 import Navbar from './main/Navbar';
-import Description from './main/sections/Description';
-import OurVision from './main/sections/Vision';
-import TheMission from './main/sections/Mission';
-import Contact from './main/sections/Contact';
-import Copyright from './main/sections/Copyright';
-import Shop from './main/sections/Shop';
-import Blog from './main/sections/Blog';
+import Display from './main/Display';
+import Footer from './main/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container-fluid">
       <Navbar />
       <div className="content">
-        <Description />
-        <OurVision />
-        <TheMission />
-        <hr />
-        <div className="footer">
-          <div className="activity">
-            <Contact />
-            <Shop />
-            <Blog />
-          </div>
-          <Copyright />
-        </div>
+        <Display />
+        <Footer />
       </div>
     </div>
   );

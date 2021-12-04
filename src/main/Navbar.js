@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import logo from "./nullnow-computing-logo.png";
+import logo from './nullnow-computing-logo.png';
 
 export default function Navbar() {
   return (
@@ -12,7 +12,7 @@ export default function Navbar() {
         width={80}
         title="Nullnow Computing"
       />
-      <h1 className="nav-header">Nullnow Computing</h1>
+      <span className="nav-header">Nullnow Computing</span>
     </div>
   );
 }
